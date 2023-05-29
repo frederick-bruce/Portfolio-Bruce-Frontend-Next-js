@@ -50,7 +50,6 @@ export const PROJECTS = [
     title: 'Crypto App - Crypto Coin Tracker',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
       getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
 
       getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
@@ -66,8 +65,6 @@ export const PROJECTS = [
     imgSrc: 'https://i.imgur.com/1oLjOZk.jpg',
     title: 'Twitch Clone - Live Platform Project',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
       getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
@@ -98,14 +95,13 @@ export const PROJECTS = [
   },
   {
     imgSrc: 'https://i.imgur.com/sN707Uq.jpg',
-    title: 'Property Finder  - Zillow API Project',
+    title: 'Property Finder - Zillow API Project',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
       getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
       getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
       getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
-      getSkillByLabel(BACKEND_SKILLS, 'Github'),
       {
         label: 'Java',
         icon: 'logos:java',
