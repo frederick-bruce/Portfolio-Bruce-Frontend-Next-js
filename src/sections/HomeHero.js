@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 // components
 import SocialLinks from '../components/social/SocialLinks';
-import mainImg from '../assets/images/profile.jpg';
+import mainImg from '../assets/images/profile.png';
 // other
 import { aboutParagraph, heroTitle } from '../constants/profile';
 import { ScrollContext } from '../context/ScrollContext';
@@ -34,7 +34,7 @@ export default function HomeHero() {
           }}
           viewport={{ once: true }}
         >
-          <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
+          <Image src={mainImg} className="w-52 rounded-md object-contain lg:w-64" alt="Logo" />
         </motion.div>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">Hi, I'm Frederick!</h1>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
